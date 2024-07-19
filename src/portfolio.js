@@ -10,7 +10,7 @@ const about = {
   role: 'junior fullstack web developper',
   description:
     'Always eager to learn new technologies & improve my skills, I am committed to successfully completing the projects entrusted to me. ',
-  resume: 'https://example.com',
+  resume: '/files/CV_sample.pdf',
   social: {
     linkedin: 'https://linkedin.com/in/romainduc',
     github: 'https://github.com/romainduc421',
@@ -25,14 +25,14 @@ const projects = [
     description:
       'platformer game',
     stack: ['Java', 'libGDX', 'Gradle', 'Android'],
-    sourceCode: 'https://github.com/platventure'
+    sourceCode: 'https://github.com/romainduc421/platventure'
   },
   {
     name: 'mcts-connectfour',
     description:
       'Connect Four game with MCTS algorithm',
     stack: ['c','ia','mcts-algorithm'],
-    sourceCode: 'https://github.com/mcts-connectfour',
+    sourceCode: 'https://github.com/romainduc421/mcts-connectfour',
   },
   {
     name: 'Cocktails',
