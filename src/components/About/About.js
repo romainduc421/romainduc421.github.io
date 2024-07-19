@@ -51,7 +51,7 @@ const About = () => {
 
             {social.whatsapp && (
               <a
-                href={social.linkedin}
+                href={social.whatsapp}
                 aria-label='whatsapp'
                 className='link link--icon'
               >
