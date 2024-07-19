@@ -14,6 +14,7 @@ const about = {
   social: {
     linkedin: 'https://linkedin.com/in/romainduc',
     github: 'https://github.com/romainduc421',
+    whatsapp: 'https://wa.me/33630627916',
   },
 }
 

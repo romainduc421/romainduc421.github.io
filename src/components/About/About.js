@@ -1,5 +1,6 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import WhatsAppIcon from '@material-ui/icons/WhatsApp'
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -45,6 +46,16 @@ const About = () => {
                 className='link link--icon'
               >
                 <LinkedInIcon />
+              </a>
+            )}
+
+            {social.whatsapp && (
+              <a
+                href={social.linkedin}
+                aria-label='linkedin'
+                className='link link--icon'
+              >
+                <WhatsAppIcon />
               </a>
             )}
           </>
